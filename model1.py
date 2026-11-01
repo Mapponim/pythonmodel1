@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-aws=r"C:\Users\nauti\Downloads\dataset_1.data"
+aws="read.data"
 df=pd.read_csv(aws)
 
 headers_data = ["symboling", "normalized-losses", "make", "fuel-type", "aspiration",
